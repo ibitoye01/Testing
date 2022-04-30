@@ -19,7 +19,7 @@ namespace Test.FBAutomation.Pages
         private By loginlink = By.XPath("/html/body/ui-view/unauthenticated-container/div/div/unauthenticated-header/div/div[3]/ul[2]/li[1]/a");
         private By emailField = By.Id("username");
         private By passwordField = By.Id("password");
-        private By loginBtn = By.XPath("//input[@type='submit' and @value = 'Sign In']");
+        private By loginBtn = By.CssSelector("button[id='kc-login']");
         private By profileName = By.XPath("/html/body/ui-view/nav-sidebar/div/nav/div[3]/nav-sidebar-user-info/div/div[2]/div[1]");
 
 
